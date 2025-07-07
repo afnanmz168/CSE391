@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Afnan Mazumder home page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="home">
+    <h1>Afnan Mazumder</h1>
+    <img src="e:\temp-1\afnan.jpg" alt="Photo of Afnan" class="profile-pic" />
+    <p class="quote">"Stay hungry, stay foolish." – Steve Jobs</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://www.bracu.ac.bd/" target="_blank">BRAC University</a></li>
+      <li><a href=" https://discord.gg/7NBY4EkN" target="_blank">CSE391 Discord</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m Afnan Mazumder, a 25 year old from Bangladesh, studying Computer Science in BRAC University.
+        I am currently living in Dhaka and my hometown is Feni. I love to travel a lot, explore new places.
+        My father is a businessman and my mother is a housewife.I have two sisters and I am the only son.
+        I am a passionate bike rider.My Dream is one day I will travel the world with my bike. </p>
+    </section>
+
+    <section id="hobbies">
+      <h2> Hobbies & Interests</h2>
+      <ul>
+        <li>Reading Sci-Fi books</li>
+        <li>Photography</li>
+        <li>traveling</li>
+        <li>Coding passion projects</li>
+      </ul>
+      <p>Check out my <a href="projects.html">projects page</a> for more.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Tools</th>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>HTML, CSS, JavaScript</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Programming</td>
+          <td>Python, Java</td>
+        </tr>
+        <tr>
+          <td>C++, SQL</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p> Located in Dhaka, Bangladesh</p>
+    <p id="lastModified"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
